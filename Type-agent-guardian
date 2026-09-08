@@ -1,0 +1,35 @@
+# AgentGuardian: Autonomous Security & Risk Assessment AI Agent
+
+[![BNB Chain](https://img.shields.io/badge/BNB%20Chain-Build%20the%20Era%20Hackathon-F3BA2F?style=for-the-badge&logo=binance&logoColor=white)](https://bnbchain.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+> **Submission for BNB Chain's Agent Studio Hackathon (Build the Era)**
+
+AgentGuardian is an autonomous, on-chain AI agent designed to protect users and protocols within the BNB Chain ecosystem from malicious smart contracts, phishing attempts, and unsafe transactions in real time.
+
+---
+
+## 📌 Problem Statement
+
+Web3 users on BNB Chain frequently fall victim to complex phishing vectors, unverified smart contracts, hidden drainers, and high-slippage liquidity traps. Existing security tools are often reactive, fragmented, or too technical for the everyday user to parse quickly before signing a transaction.
+
+## 💡 Solution
+
+Powered by **Agent Studio**, AgentGuardian acts as an automated security co-pilot. It operates directly at the transaction boundary, inspecting smart contract bytecode, execution paths, and historical interaction data before a transaction is signed. 
+
+By combining predictive machine learning risk scores with on-chain execution capabilities, AgentGuardian provides immediate clarity on potential threats and sends proactive automated alerts to users across messaging channels.
+
+---
+
+## ✨ Key Features
+
+* 🔍 **Real-Time On-Chain Analysis:** Instantly scans BNB Chain smart contract interactions for malicious code patterns and reentrancy/drain vulnerabilities.
+* 📊 **Automated Risk Scoring:** Produces an intuitive safety score (0–100) and actionable warnings prior to transaction execution.
+* 🚨 **Proactive Alerting System:** Automatically sends security warnings and wallet risk notifications via Telegram and X (Twitter) bot integrations.
+* 🛠️ **Developer Integration Module:** Exposes an API and lightweight client library allowing third-party BNB Chain dApps to embed AgentGuardian's safety checks directly into their user interfaces.
+
+---
+
+## 🏗️ Architecture & How It Works
+
+
